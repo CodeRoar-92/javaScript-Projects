@@ -17,7 +17,8 @@
                         <li class="list-items"><a href="#" target="_blank" >About</a></li>
                         <li class="list-items"><a href="#" target="_blank" >Help</a></li>
                         <li class="list-items"><a href="#" target="_blank" >Services</a></li>
-                        <li onclick="shownav()"><a href="#" ><img src="icons8-menu-50.png" alt="" class="burger-img"></a></li>
+                      
+                        <li  class="shownav"><a href="#" ><img src="icons8-menu-50.png" alt="" class="burger-img"></a></li>
                     </ul>
 
                     
@@ -26,7 +27,8 @@
                         <li><a href="#" target="_blank" >About</a></li>
                         <li><a href="#" target="_blank" >Help</a></li>
                         <li><a href="#" target="_blank" >Services</a></li>
-                        <li onclick="hidenav()"><a href="#"><img src="close-x-10324.svg" alt="" class="close-btn"></a></li>
+                    
+                        <li  class="hidenav"><a href="#"><img src="close-x-10324.svg" alt="" class="close-btn"></a></li>
                     </ul>
 
 
@@ -52,16 +54,16 @@
 
         
     </div>
-    <script>
+    <script src="script.js">
         
-        function shownav(){
-            let show = document.querySelector(".hide");
-            show.style.display="flex";
-        }
-        function hidenav(){
-            let hide = document.querySelector(".hide");
-            hide.style.display="none";
-        }
+        //  function shownav(){
+        //      let show = document.querySelector(".hide");
+        //      show.style.display="flex";
+        //  }
+        //  function hidenav(){
+        //      let hide = document.querySelector(".hide");
+        //     hide.style.display="none";
+        //  }
     </script>
 </body>
 </html>
