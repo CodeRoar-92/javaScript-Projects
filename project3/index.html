@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-bar">
+                <div class="logo-container"><img src="joint-chiefs-of-staff-logo-svgrepo-com.svg" alt="" class="logo-img"> <div class="heading"><h2>CodeRoar-92</h2></div></div>
+                <div class="links-container">
+                    <ul class="nav">
+                        <li class="list-items"><a href="#" target="_blank" >Home</a></li>
+                        <li class="list-items"><a href="#" target="_blank" >About</a></li>
+                        <li class="list-items"><a href="#" target="_blank" >Help</a></li>
+                        <li class="list-items"><a href="#" target="_blank" >Services</a></li>
+                        <li onclick="shownav()"><a href="#" ><img src="icons8-menu-50.png" alt="" class="burger-img"></a></li>
+                    </ul>
+
+                    
+                    <ul class="hide">
+                        <li><a href="#" target="_blank" >Home</a></li>
+                        <li><a href="#" target="_blank" >About</a></li>
+                        <li><a href="#" target="_blank" >Help</a></li>
+                        <li><a href="#" target="_blank" >Services</a></li>
+                        <li onclick="hidenav()"><a href="#"><img src="close-x-10324.svg" alt="" class="close-btn"></a></li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </nav>
+
+        <section>
+
+            <div class="hero">
+                <img src="apple-mouse-artificial-flowers-blurred-background-close-up.jpg" alt="" class="bg-img">
+                <div class="hero-1">
+                    <span class="first">Let's learn Together</span>
+                    <span class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit natus a aspernatur explicabo sint mollitia. <br> Facere quae minus et voluptatibus assumenda at beatae?</span>
+                    <form action="">
+                        <input type="text" placeholder="Enter your E-mail">
+                        <label for="">Subscribe</label>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        
+    </div>
+    <script>
+        
+        function shownav(){
+            let show = document.querySelector(".hide");
+            show.style.display="flex";
+        }
+        function hidenav(){
+            let hide = document.querySelector(".hide");
+            hide.style.display="none";
+        }
+    </script>
+</body>
+</html>
